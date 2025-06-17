@@ -110,7 +110,7 @@ export default function Footer() {
                                     <span className="text-sm font-medium">Jam Operasional</span>
                                 </div>
                                 <div className="text-white">
-                                    {currentTime.toLocaleTimeString('id-ID')}
+                                    {currentTime?.toLocaleTimeString('id-ID')}
                                 </div>
                                 <div className="text-gray-400 text-sm mt-1">
                                     Senin - Jumat: 08:00 - 17:00
@@ -311,7 +311,7 @@ export default function Footer() {
 
             {/* Scroll to Top Button */}
             {showScrollTop && (
-                <button onClick={scrollToTop} type='button' className="fixed cursor-pointer bottom-8 right-8 animate-bounce">
+                <button onClick={scrollToTop} type='button' className="fixed z-50 cursor-pointer bottom-8 right-8 animate-bounce">
                     <div className="w-10 h-10 border-2 border-yellow-400 rounded-full flex items-center justify-center">
                         <ArrowUp className="w-5 h-5 text-yellow-400 group-hover:animate-bounce" />
                     </div>

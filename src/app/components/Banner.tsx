@@ -126,7 +126,7 @@ const Banner = () => {
             </div>
 
             {/* Main Content */}
-            <div className="relative z-10 min-h-screen flex items-center pt-16 lg:pt-0">
+            <div className="relative z-10 min-h-screen flex items-center py-16 lg:pt-0">
                 <div className="container mx-auto px-4 lg:px-8">
                     <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
                         {/* Left Content */}

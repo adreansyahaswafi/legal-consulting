@@ -28,9 +28,9 @@ export default function Header() {
             className={`bg-transparent fixed w-full top-0 z-50 transition-all duration-300 animate-fadeInDown ${isScrolled ? 'shadow-xl bg-gradient-to-br from-gray-800 via-gray-600 to-gray-900' : ''
                 }`}        >
             <div className="mx-auto container px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-end lg:justify-between items-center h-16">
+                <div className="flex justify-between items-center h-16">
                     {/* Logo */}
-                    <div className="flex-shrink-0 hidden lg:block">
+                    <div className="flex-shrink-0">
                         <div className="flex items-center space-x-3">
                             <div className="relative group">
                                 <Scale className="w-10 h-10 lg:w-12 lg:h-12 text-amber-400 transition-transform group-hover:scale-110 group-hover:rotate-12" />
